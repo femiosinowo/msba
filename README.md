@@ -2,10 +2,10 @@
 This wiki describes the details of deploying a LAMP application  - Wordpress in Openshift
 
 ## Stack
-1. OpenShift
-2. Wordpress
-2. PHP/MySQL
-3. Docker
+1. OpenShift Container Platform
+2. Wordpress (PHP Application)
+2. MySQL Database
+3. Docker - Using S2i.
 
 ## Docker 
 ### Docker images
@@ -37,8 +37,8 @@ After you deploy an application to your cluster using a Deployment or StatefulSe
 An OpenShift route is a way to expose a service by giving it an externally-reachable hostname.
 
 ## Deployments Config Files
-1. MySQL yaml file
-2. Wordpress yaml file
+1. MySQL deployment yaml file
+2. Wordpress deployment yaml file
 
 ## Usage
 ### Create a Project in openshift
